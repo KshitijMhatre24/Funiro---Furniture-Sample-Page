@@ -1,0 +1,296 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&family=Roboto:ital,wght@0,100..900;1,100..900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --max-width: 1366px;
+}
+
+body {
+  background: white;
+  font-family: "Poppins", sans-serif;
+}
+
+.navbar {
+  display: flex;
+  background: white;
+}
+
+.left-section {
+  color: black;
+  font-size: 20px;
+  margin-left: 3rem;
+  margin-top: 1rem;
+}
+
+.middle-section {
+  display: flex;
+}
+
+.middle-section ul {
+  list-style: none;
+  display: flex;
+  margin-left: 21rem;
+  margin-top: 2.5rem;
+}
+
+.middle-section ul li {
+  display: flex;
+  padding-left: 30px;
+}
+
+.middle-section ul li:hover {
+  color: #f7c625;
+  text-decoration: underline;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.right-section {
+  display: flex;
+}
+
+.right-section ul {
+  list-style: none;
+  display: flex;
+  margin-left: 15rem;
+  margin-top: 2.5rem;
+}
+
+.right-section ul li {
+  padding-left: 23px;
+}
+
+.right-section ul li i {
+  font-size: 20px;
+  cursor: pointer;
+  cursor: white;
+}
+
+.heading {
+    position: relative;
+    width: 100%;
+    height: 443px;
+    overflow: hidden;
+  }
+  
+  .heading img {
+    width: 100%;
+    height: 100%;
+    filter: blur(8px);
+    object-fit: cover;
+    display: block;
+  }
+  
+  .title  {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 30px;
+    padding: 1rem 2rem;
+    color: rgb(0, 0, 0);
+    border-radius: 8px;
+  }
+
+  .title h4{
+    font-size: 15px;
+    text-align: center;
+  }
+
+  .right{
+    margin-left: 68rem;
+    margin-top: 5rem;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .right button{
+    width: 10rem;
+    height: 2rem;
+    margin-top: 1rem;
+    background: #B88E2F;
+    border: none;
+    border-radius: 6px;
+    color: white;
+  }
+
+  .img-section{
+    display: flex;
+    margin-top: -6rem;
+    margin-left: 26rem;
+    padding-right: 60px;
+  }
+
+  .img{
+    padding-right: 40px;
+  }
+
+  .img-section img{
+    width: 238px;
+    height: 142px;  
+  }
+
+  .left{
+    margin-top: -13.5rem;
+    margin-left: 4rem;
+  }
+
+  .left p{
+    margin-top: 15px;
+    text-decoration: underline;
+  }
+
+  .lists{
+    margin-top: 10rem;
+    margin-left: 4rem;
+  }
+
+  .general{
+    margin-top: 2rem;
+    display: flex;
+  }
+
+  .general ul{
+    list-style: none;
+    padding-right: 100px;
+  }
+
+  .general ul li{
+    padding-bottom: 15px;
+  }
+
+  .product{
+    margin-top: 2rem;
+    display: flex;
+  }
+
+  .product ul{
+    list-style: none;
+    padding-right: 100px;
+  }
+
+  .product ul li{
+    padding-bottom: 15px;
+  }
+
+    .dimensions{
+    margin-top: 2rem;
+    display: flex;
+  }
+
+  .dimensions ul{
+    list-style: none;
+    padding-right: 190px;
+  }
+
+  .dimensions ul li{
+    padding-bottom: 15px;
+  }
+
+      .warranty{
+    margin-top: 2rem;
+    display: flex;
+  }
+
+  .warranty ul{
+    list-style: none;
+    padding-right: 190px;
+  }
+
+  .warranty ul li{
+    padding-bottom: 15px;
+  }
+
+  .warranty ul li button{
+    background: #B88E2F;
+    width: 215px;
+    height: 64px;
+    border: none;
+    color: white;
+    font-size: 16px;
+    margin-left: -1rem;
+    margin-top: 1rem;
+  }
+
+  .benefits-section {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #f5f2e9; 
+    padding: 20px;
+    height: 14rem;
+    margin-top: 5rem;
+}
+
+.benefit-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    color: #333;
+}
+
+.benefit-item i {
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.benefit-item p {
+    margin: 0;
+    font-size: 14px;
+    line-height: 1.5;
+}
+
+section.footer{
+  margin-top: 7rem;
+  margin-left: 8rem;
+}
+
+section.footer p{
+  padding-top: 20px;
+}
+
+.links{
+  display: flex;
+  margin-left: 30rem;
+  margin-top: -7rem;
+}
+
+.links ul{
+  list-style: none;
+  padding-right: 4rem;
+}
+
+.links ul li span{
+  color: rgb(121, 121, 121);
+}
+
+.links ul li{
+  padding-bottom: 50px;
+  cursor: pointer;
+}
+
+.links ul li button{
+  background: transparent;
+  padding: 15px 25px;
+  border: none;
+}
+
+.links ul li button:hover{
+  background: #b88e2f;
+  color: white;
+  cursor: pointer;
+  transition: 0.3s ease-in-out;
+  border-radius: 3px;
+
+}
+
+.copyright{
+  color: black;
+}
