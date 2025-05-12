@@ -37,6 +37,9 @@ Images from Unsplash
 This is a front-end only project.
 
 Contact form is for UI demonstration and is not connected to any backend service.
+
+🔴🔴For the images:
+Paste the images inside a 'images' folder which will be inside an 'assets' folder
 ## License
 
 This project is open for educational and personal use. Do not redistribute without permission or use commercially without attribution.
